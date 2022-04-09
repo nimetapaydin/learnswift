@@ -25,8 +25,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bulunan sifre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u58-Cp-ukX">
-                                <rect key="frame" x="145" y="289" width="99" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="bulunan sifre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u58-Cp-ukX">
+                                <rect key="frame" x="144" y="254" width="99" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -44,7 +44,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="U3S-gC-w5i"/>
                     <connections>
-                        <outlet property="bulunansifreText" destination="u58-Cp-ukX" id="FTS-Yz-MeX"/>
+                        <outlet property="bulunansifreText" destination="u58-Cp-ukX" id="Pm6-lI-ZoF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -79,14 +79,6 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Fmz-1m-Fbw"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tir-0x-20O">
-                                <rect key="frame" x="55" y="235" width="304" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="sifreText:" destination="szA-4P-0hS" eventType="editingDidEnd" id="4fd-K5-ERB"/>
-                                </connections>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muk-gY-hJi">
                                 <rect key="frame" x="94" y="363" width="226" height="31"/>
                                 <state key="normal" title="Button"/>
@@ -96,6 +88,11 @@
                                     <action selector="kontrolettiklandi:" destination="szA-4P-0hS" eventType="touchUpInside" id="c9q-AO-HPy"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tir-0x-20O">
+                                <rect key="frame" x="74" y="235" width="304" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QMt-mF-wor"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -116,7 +113,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="KPi-iF-nj8"/>
                     <connections>
-                        <outlet property="sifreText" destination="Tir-0x-20O" id="per-gg-vfx"/>
+                        <outlet property="birinciLabel" destination="Ez4-JG-UrK" id="68s-Xz-Je5"/>
+                        <outlet property="textField" destination="Tir-0x-20O" id="uRY-Jp-EGk"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="toikinciVC" id="Xbv-vZ-ifo"/>
                     </connections>
                 </viewController>

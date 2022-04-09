@@ -9,25 +9,37 @@ import UIKit
 
 class ViewController: UIViewController {
     
-   
-    @IBOutlet weak var sifreText: UITextField!
     
    
+    @IBOutlet weak var birinciLabel: UILabel!
+    
+    @IBOutlet weak var textField: UITextField!
+    var alinansifre = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
     }
     
     
     @IBAction func kontrolettiklandi(_ sender: Any) {
-        performSegue(withIdentifier: "toikinciVC", sender: nil)
+        
+        alinansifre = textField.text!
+        
+        if alinansifre == "Nimet"{
+            performSegue(withIdentifier: "toikinciVC", sender: nil)
+        }else{
+            birinciLabel.text = "Şifreniz Yanlıştır"
+        }
+        
+       
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toikinciVC"{
-            aaaa
+        if segue.identifier == "toikinciVC" {
+            let destinationVC = segue.destination as! IkinciViewController
+            destinationVC.verilenSifre = alinansifre
+        
         }
     }
 }

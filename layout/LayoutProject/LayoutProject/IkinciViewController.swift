@@ -9,14 +9,15 @@ import UIKit
 
 class IkinciViewController: UIViewController {
     
+    
     @IBOutlet weak var bulunansifreText: UILabel!
-
+    
     var verilenSifre = ""
     
     override func viewDidLoad() {
-        
-        sifreText.text = verilenSifre
         super.viewDidLoad()
+        
+        bulunansifreText.text = verilenSifre
 
        
     }
