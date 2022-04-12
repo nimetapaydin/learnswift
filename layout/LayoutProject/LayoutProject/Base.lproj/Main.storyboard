@@ -68,19 +68,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXK-ud-3mQ">
-                                <rect key="frame" x="123" y="248" width="158" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="Dam-r4-hPa"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXK-ud-3mQ">
+                                <rect key="frame" x="271" y="211" width="96" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="Fmz-1m-Fbw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muk-gY-hJi">
-                                <rect key="frame" x="89" y="209" width="226" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muk-gY-hJi">
+                                <rect key="frame" x="63" y="209" width="97" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Kontrol et"/>
                                 <connections>
@@ -93,47 +92,70 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ne yapacaksınız" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4cL-ij-pt1">
-                                <rect key="frame" x="63" y="294" width="304" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ne yapacaksınız" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4cL-ij-pt1">
+                                <rect key="frame" x="63" y="268" width="304" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ne zaman" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZdD-HN-0mj">
-                                <rect key="frame" x="63" y="343" width="304" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ne zaman" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZdD-HN-0mj">
+                                <rect key="frame" x="63" y="323" width="304" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lws-nN-efa">
-                                <rect key="frame" x="63" y="411" width="304" height="77"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yapılacak iş :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lws-nN-efa">
+                                <rect key="frame" x="68" y="384" width="278" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yapılacak zaman :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czE-Bk-26m">
+                                <rect key="frame" x="116" y="445" width="182" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8M-im-Oj9">
+                                <rect key="frame" x="63" y="496" width="82" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Kaydet"/>
+                                <connections>
+                                    <action selector="kaydettiklandi:" destination="87M-HM-xfu" eventType="touchUpInside" id="efe-u7-8jq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5k-f8-80c">
+                                <rect key="frame" x="290" y="504" width="77" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sil"/>
+                                <connections>
+                                    <action selector="silTiklandi:" destination="87M-HM-xfu" eventType="touchUpInside" id="FwS-AL-mWT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QMt-mF-wor"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Ez4-JG-UrK" firstAttribute="centerX" secondItem="00l-dR-wt9" secondAttribute="centerX" id="092-mj-ixe"/>
-                            <constraint firstItem="QMt-mF-wor" firstAttribute="bottom" secondItem="FXK-ud-3mQ" secondAttribute="bottom" constant="192" id="Da5-X9-xnd"/>
                             <constraint firstItem="Ez4-JG-UrK" firstAttribute="leading" secondItem="QMt-mF-wor" secondAttribute="leading" constant="89" id="E4j-Dl-arK"/>
-                            <constraint firstItem="QMt-mF-wor" firstAttribute="trailing" secondItem="FXK-ud-3mQ" secondAttribute="trailing" constant="109" id="HmC-9K-UZL"/>
                             <constraint firstItem="Tir-0x-20O" firstAttribute="top" secondItem="Ez4-JG-UrK" secondAttribute="bottom" constant="8" id="Iww-Sz-kWg"/>
-                            <constraint firstItem="Ez4-JG-UrK" firstAttribute="leading" secondItem="muk-gY-hJi" secondAttribute="leading" id="TrP-ZY-ICU"/>
-                            <constraint firstItem="QMt-mF-wor" firstAttribute="trailing" secondItem="muk-gY-hJi" secondAttribute="trailing" constant="99" id="UaQ-IU-euf"/>
                             <constraint firstItem="Tir-0x-20O" firstAttribute="leading" secondItem="QMt-mF-wor" secondAttribute="leading" constant="55" id="ZtG-AY-8cC"/>
                             <constraint firstItem="Ez4-JG-UrK" firstAttribute="centerX" secondItem="Tir-0x-20O" secondAttribute="centerX" id="ht8-s2-eju"/>
-                            <constraint firstItem="muk-gY-hJi" firstAttribute="top" secondItem="Tir-0x-20O" secondAttribute="bottom" constant="99" id="pKN-tj-c2t"/>
-                            <constraint firstItem="FXK-ud-3mQ" firstAttribute="leading" secondItem="QMt-mF-wor" secondAttribute="leading" constant="147" id="sAH-ic-LjA"/>
                             <constraint firstItem="Ez4-JG-UrK" firstAttribute="top" secondItem="QMt-mF-wor" secondAttribute="top" constant="81" id="sTt-l2-iOo"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KPi-iF-nj8"/>
                     <connections>
                         <outlet property="birinciLabel" destination="Ez4-JG-UrK" id="68s-Xz-Je5"/>
+                        <outlet property="neyapacaksiniz" destination="4cL-ij-pt1" id="y5P-6d-3EF"/>
+                        <outlet property="nezaman" destination="ZdD-HN-0mj" id="rhB-cU-sQO"/>
                         <outlet property="textField" destination="Tir-0x-20O" id="uRY-Jp-EGk"/>
+                        <outlet property="yapilacakis" destination="Lws-nN-efa" id="Lvc-3o-rM0"/>
+                        <outlet property="yapilacakzaman" destination="czE-Bk-26m" id="q9H-5Q-aJc"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="toikinciVC" id="Xbv-vZ-ifo"/>
                     </connections>
                 </viewController>
