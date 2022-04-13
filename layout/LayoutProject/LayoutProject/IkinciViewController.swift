@@ -12,15 +12,23 @@ class IkinciViewController: UIViewController {
     
     @IBOutlet weak var bulunansifreText: UILabel!
     
+    
+    @IBOutlet weak var emailTextField: UITextField!
+    
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    
+    @IBOutlet weak var password2TextField: UITextField!
+    
     var verilenSifre = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         bulunansifreText.text = verilenSifre
-
-       
     }
     
 
+    @IBAction func signUpTiklandi(_ sender: Any) {
+    }
 }
