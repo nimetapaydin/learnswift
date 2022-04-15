@@ -7,69 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		127DF88727FF086100D9308C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF88627FF086100D9308C /* AppDelegate.swift */; };
-		127DF88927FF086100D9308C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF88827FF086100D9308C /* SceneDelegate.swift */; };
-		127DF88B27FF086100D9308C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF88A27FF086100D9308C /* ViewController.swift */; };
-		127DF88E27FF086100D9308C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127DF88C27FF086100D9308C /* Main.storyboard */; };
-		127DF89027FF086400D9308C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127DF88F27FF086400D9308C /* Assets.xcassets */; };
-		127DF89327FF086400D9308C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127DF89127FF086400D9308C /* LaunchScreen.storyboard */; };
-		127DF89E27FF086400D9308C /* LayoutProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF89D27FF086400D9308C /* LayoutProjectTests.swift */; };
-		127DF8A827FF086400D9308C /* LayoutProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF8A727FF086400D9308C /* LayoutProjectUITests.swift */; };
-		127DF8AA27FF086400D9308C /* LayoutProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF8A927FF086400D9308C /* LayoutProjectUITestsLaunchTests.swift */; };
-		127DF8B72800892A00D9308C /* IkinciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF8B62800892A00D9308C /* IkinciViewController.swift */; };
-		127DF8BD280879AD00D9308C /* LayoutProject in Resources */ = {isa = PBXBuildFile; fileRef = 127DF8BC280879AD00D9308C /* LayoutProject */; };
+		127DF8D32809ADB400D9308C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF8D22809ADB400D9308C /* AppDelegate.swift */; };
+		127DF8D52809ADB400D9308C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF8D42809ADB400D9308C /* SceneDelegate.swift */; };
+		127DF8D72809ADB400D9308C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF8D62809ADB400D9308C /* ViewController.swift */; };
+		127DF8DA2809ADB400D9308C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127DF8D82809ADB400D9308C /* Main.storyboard */; };
+		127DF8DC2809ADB500D9308C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 127DF8DB2809ADB500D9308C /* Assets.xcassets */; };
+		127DF8DF2809ADB500D9308C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127DF8DD2809ADB500D9308C /* LaunchScreen.storyboard */; };
+		127DF8EA2809ADB500D9308C /* Jest_Alg_l_y_c_larTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF8E92809ADB500D9308C /* Jest_Alg_l_y_c_larTests.swift */; };
+		127DF8F42809ADB500D9308C /* Jest_Alg_l_y_c_larUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF8F32809ADB500D9308C /* Jest_Alg_l_y_c_larUITests.swift */; };
+		127DF8F62809ADB500D9308C /* Jest_Alg_l_y_c_larUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF8F52809ADB500D9308C /* Jest_Alg_l_y_c_larUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		127DF89A27FF086400D9308C /* PBXContainerItemProxy */ = {
+		127DF8E62809ADB500D9308C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 127DF87B27FF086100D9308C /* Project object */;
+			containerPortal = 127DF8C72809ADB400D9308C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 127DF88227FF086100D9308C;
-			remoteInfo = LayoutProject;
+			remoteGlobalIDString = 127DF8CE2809ADB400D9308C;
+			remoteInfo = "Jest Algılıyıcılar";
 		};
-		127DF8A427FF086400D9308C /* PBXContainerItemProxy */ = {
+		127DF8F02809ADB500D9308C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 127DF87B27FF086100D9308C /* Project object */;
+			containerPortal = 127DF8C72809ADB400D9308C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 127DF88227FF086100D9308C;
-			remoteInfo = LayoutProject;
+			remoteGlobalIDString = 127DF8CE2809ADB400D9308C;
+			remoteInfo = "Jest Algılıyıcılar";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		127DF88327FF086100D9308C /* LayoutProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		127DF88627FF086100D9308C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		127DF88827FF086100D9308C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		127DF88A27FF086100D9308C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		127DF88D27FF086100D9308C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		127DF88F27FF086400D9308C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		127DF89227FF086400D9308C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		127DF89927FF086400D9308C /* LayoutProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		127DF89D27FF086400D9308C /* LayoutProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutProjectTests.swift; sourceTree = "<group>"; };
-		127DF8A327FF086400D9308C /* LayoutProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		127DF8A727FF086400D9308C /* LayoutProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutProjectUITests.swift; sourceTree = "<group>"; };
-		127DF8A927FF086400D9308C /* LayoutProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		127DF8B62800892A00D9308C /* IkinciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkinciViewController.swift; sourceTree = "<group>"; };
-		127DF8BC280879AD00D9308C /* LayoutProject */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LayoutProject; sourceTree = "<group>"; };
+		127DF8CF2809ADB400D9308C /* Jest Algılıyıcılar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jest Algılıyıcılar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		127DF8D22809ADB400D9308C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		127DF8D42809ADB400D9308C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		127DF8D62809ADB400D9308C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		127DF8D92809ADB400D9308C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		127DF8DB2809ADB500D9308C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		127DF8DE2809ADB500D9308C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		127DF8E02809ADB500D9308C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127DF8E52809ADB500D9308C /* Jest AlgılıyıcılarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jest AlgılıyıcılarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		127DF8E92809ADB500D9308C /* Jest_Alg_l_y_c_larTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jest_Alg_l_y_c_larTests.swift; sourceTree = "<group>"; };
+		127DF8EF2809ADB500D9308C /* Jest AlgılıyıcılarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jest AlgılıyıcılarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		127DF8F32809ADB500D9308C /* Jest_Alg_l_y_c_larUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jest_Alg_l_y_c_larUITests.swift; sourceTree = "<group>"; };
+		127DF8F52809ADB500D9308C /* Jest_Alg_l_y_c_larUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jest_Alg_l_y_c_larUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		127DF88027FF086100D9308C /* Frameworks */ = {
+		127DF8CC2809ADB400D9308C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		127DF89627FF086400D9308C /* Frameworks */ = {
+		127DF8E22809ADB500D9308C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		127DF8A027FF086400D9308C /* Frameworks */ = {
+		127DF8EC2809ADB500D9308C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,138 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		127DF87A27FF086100D9308C = {
+		127DF8C62809ADB400D9308C = {
 			isa = PBXGroup;
 			children = (
-				127DF88527FF086100D9308C /* LayoutProject */,
-				127DF89C27FF086400D9308C /* LayoutProjectTests */,
-				127DF8A627FF086400D9308C /* LayoutProjectUITests */,
-				127DF88427FF086100D9308C /* Products */,
+				127DF8D12809ADB400D9308C /* Jest Algılıyıcılar */,
+				127DF8E82809ADB500D9308C /* Jest AlgılıyıcılarTests */,
+				127DF8F22809ADB500D9308C /* Jest AlgılıyıcılarUITests */,
+				127DF8D02809ADB400D9308C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		127DF88427FF086100D9308C /* Products */ = {
+		127DF8D02809ADB400D9308C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				127DF88327FF086100D9308C /* LayoutProject.app */,
-				127DF89927FF086400D9308C /* LayoutProjectTests.xctest */,
-				127DF8A327FF086400D9308C /* LayoutProjectUITests.xctest */,
+				127DF8CF2809ADB400D9308C /* Jest Algılıyıcılar.app */,
+				127DF8E52809ADB500D9308C /* Jest AlgılıyıcılarTests.xctest */,
+				127DF8EF2809ADB500D9308C /* Jest AlgılıyıcılarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		127DF88527FF086100D9308C /* LayoutProject */ = {
+		127DF8D12809ADB400D9308C /* Jest Algılıyıcılar */ = {
 			isa = PBXGroup;
 			children = (
-				127DF88627FF086100D9308C /* AppDelegate.swift */,
-				127DF88827FF086100D9308C /* SceneDelegate.swift */,
-				127DF88A27FF086100D9308C /* ViewController.swift */,
-				127DF88C27FF086100D9308C /* Main.storyboard */,
-				127DF88F27FF086400D9308C /* Assets.xcassets */,
-				127DF89127FF086400D9308C /* LaunchScreen.storyboard */,
-				127DF8B62800892A00D9308C /* IkinciViewController.swift */,
-				127DF8BC280879AD00D9308C /* LayoutProject */,
+				127DF8D22809ADB400D9308C /* AppDelegate.swift */,
+				127DF8D42809ADB400D9308C /* SceneDelegate.swift */,
+				127DF8D62809ADB400D9308C /* ViewController.swift */,
+				127DF8D82809ADB400D9308C /* Main.storyboard */,
+				127DF8DB2809ADB500D9308C /* Assets.xcassets */,
+				127DF8DD2809ADB500D9308C /* LaunchScreen.storyboard */,
+				127DF8E02809ADB500D9308C /* Info.plist */,
 			);
-			path = LayoutProject;
+			path = "Jest Algılıyıcılar";
 			sourceTree = "<group>";
 		};
-		127DF89C27FF086400D9308C /* LayoutProjectTests */ = {
+		127DF8E82809ADB500D9308C /* Jest AlgılıyıcılarTests */ = {
 			isa = PBXGroup;
 			children = (
-				127DF89D27FF086400D9308C /* LayoutProjectTests.swift */,
+				127DF8E92809ADB500D9308C /* Jest_Alg_l_y_c_larTests.swift */,
 			);
-			path = LayoutProjectTests;
+			path = "Jest AlgılıyıcılarTests";
 			sourceTree = "<group>";
 		};
-		127DF8A627FF086400D9308C /* LayoutProjectUITests */ = {
+		127DF8F22809ADB500D9308C /* Jest AlgılıyıcılarUITests */ = {
 			isa = PBXGroup;
 			children = (
-				127DF8A727FF086400D9308C /* LayoutProjectUITests.swift */,
-				127DF8A927FF086400D9308C /* LayoutProjectUITestsLaunchTests.swift */,
+				127DF8F32809ADB500D9308C /* Jest_Alg_l_y_c_larUITests.swift */,
+				127DF8F52809ADB500D9308C /* Jest_Alg_l_y_c_larUITestsLaunchTests.swift */,
 			);
-			path = LayoutProjectUITests;
+			path = "Jest AlgılıyıcılarUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		127DF88227FF086100D9308C /* LayoutProject */ = {
+		127DF8CE2809ADB400D9308C /* Jest Algılıyıcılar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 127DF8AD27FF086400D9308C /* Build configuration list for PBXNativeTarget "LayoutProject" */;
+			buildConfigurationList = 127DF8F92809ADB500D9308C /* Build configuration list for PBXNativeTarget "Jest Algılıyıcılar" */;
 			buildPhases = (
-				127DF87F27FF086100D9308C /* Sources */,
-				127DF88027FF086100D9308C /* Frameworks */,
-				127DF88127FF086100D9308C /* Resources */,
+				127DF8CB2809ADB400D9308C /* Sources */,
+				127DF8CC2809ADB400D9308C /* Frameworks */,
+				127DF8CD2809ADB400D9308C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LayoutProject;
-			productName = LayoutProject;
-			productReference = 127DF88327FF086100D9308C /* LayoutProject.app */;
+			name = "Jest Algılıyıcılar";
+			productName = "Jest Algılıyıcılar";
+			productReference = 127DF8CF2809ADB400D9308C /* Jest Algılıyıcılar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		127DF89827FF086400D9308C /* LayoutProjectTests */ = {
+		127DF8E42809ADB500D9308C /* Jest AlgılıyıcılarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 127DF8B027FF086400D9308C /* Build configuration list for PBXNativeTarget "LayoutProjectTests" */;
+			buildConfigurationList = 127DF8FC2809ADB500D9308C /* Build configuration list for PBXNativeTarget "Jest AlgılıyıcılarTests" */;
 			buildPhases = (
-				127DF89527FF086400D9308C /* Sources */,
-				127DF89627FF086400D9308C /* Frameworks */,
-				127DF89727FF086400D9308C /* Resources */,
+				127DF8E12809ADB500D9308C /* Sources */,
+				127DF8E22809ADB500D9308C /* Frameworks */,
+				127DF8E32809ADB500D9308C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				127DF89B27FF086400D9308C /* PBXTargetDependency */,
+				127DF8E72809ADB500D9308C /* PBXTargetDependency */,
 			);
-			name = LayoutProjectTests;
-			productName = LayoutProjectTests;
-			productReference = 127DF89927FF086400D9308C /* LayoutProjectTests.xctest */;
+			name = "Jest AlgılıyıcılarTests";
+			productName = "Jest AlgılıyıcılarTests";
+			productReference = 127DF8E52809ADB500D9308C /* Jest AlgılıyıcılarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		127DF8A227FF086400D9308C /* LayoutProjectUITests */ = {
+		127DF8EE2809ADB500D9308C /* Jest AlgılıyıcılarUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 127DF8B327FF086400D9308C /* Build configuration list for PBXNativeTarget "LayoutProjectUITests" */;
+			buildConfigurationList = 127DF8FF2809ADB500D9308C /* Build configuration list for PBXNativeTarget "Jest AlgılıyıcılarUITests" */;
 			buildPhases = (
-				127DF89F27FF086400D9308C /* Sources */,
-				127DF8A027FF086400D9308C /* Frameworks */,
-				127DF8A127FF086400D9308C /* Resources */,
+				127DF8EB2809ADB500D9308C /* Sources */,
+				127DF8EC2809ADB500D9308C /* Frameworks */,
+				127DF8ED2809ADB500D9308C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				127DF8A527FF086400D9308C /* PBXTargetDependency */,
+				127DF8F12809ADB500D9308C /* PBXTargetDependency */,
 			);
-			name = LayoutProjectUITests;
-			productName = LayoutProjectUITests;
-			productReference = 127DF8A327FF086400D9308C /* LayoutProjectUITests.xctest */;
+			name = "Jest AlgılıyıcılarUITests";
+			productName = "Jest AlgılıyıcılarUITests";
+			productReference = 127DF8EF2809ADB500D9308C /* Jest AlgılıyıcılarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		127DF87B27FF086100D9308C /* Project object */ = {
+		127DF8C72809ADB400D9308C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					127DF88227FF086100D9308C = {
+					127DF8CE2809ADB400D9308C = {
 						CreatedOnToolsVersion = 13.3;
 					};
-					127DF89827FF086400D9308C = {
+					127DF8E42809ADB500D9308C = {
 						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 127DF88227FF086100D9308C;
+						TestTargetID = 127DF8CE2809ADB400D9308C;
 					};
-					127DF8A227FF086400D9308C = {
+					127DF8EE2809ADB500D9308C = {
 						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 127DF88227FF086100D9308C;
+						TestTargetID = 127DF8CE2809ADB400D9308C;
 					};
 				};
 			};
-			buildConfigurationList = 127DF87E27FF086100D9308C /* Build configuration list for PBXProject "LayoutProject" */;
+			buildConfigurationList = 127DF8CA2809ADB400D9308C /* Build configuration list for PBXProject "Jest Algılıyıcılar" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,38 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 127DF87A27FF086100D9308C;
-			productRefGroup = 127DF88427FF086100D9308C /* Products */;
+			mainGroup = 127DF8C62809ADB400D9308C;
+			productRefGroup = 127DF8D02809ADB400D9308C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				127DF88227FF086100D9308C /* LayoutProject */,
-				127DF89827FF086400D9308C /* LayoutProjectTests */,
-				127DF8A227FF086400D9308C /* LayoutProjectUITests */,
+				127DF8CE2809ADB400D9308C /* Jest Algılıyıcılar */,
+				127DF8E42809ADB500D9308C /* Jest AlgılıyıcılarTests */,
+				127DF8EE2809ADB500D9308C /* Jest AlgılıyıcılarUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		127DF88127FF086100D9308C /* Resources */ = {
+		127DF8CD2809ADB400D9308C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127DF89327FF086400D9308C /* LaunchScreen.storyboard in Resources */,
-				127DF89027FF086400D9308C /* Assets.xcassets in Resources */,
-				127DF8BD280879AD00D9308C /* LayoutProject in Resources */,
-				127DF88E27FF086100D9308C /* Main.storyboard in Resources */,
+				127DF8DF2809ADB500D9308C /* LaunchScreen.storyboard in Resources */,
+				127DF8DC2809ADB500D9308C /* Assets.xcassets in Resources */,
+				127DF8DA2809ADB400D9308C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		127DF89727FF086400D9308C /* Resources */ = {
+		127DF8E32809ADB500D9308C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		127DF8A127FF086400D9308C /* Resources */ = {
+		127DF8ED2809ADB500D9308C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,62 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		127DF87F27FF086100D9308C /* Sources */ = {
+		127DF8CB2809ADB400D9308C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127DF88B27FF086100D9308C /* ViewController.swift in Sources */,
-				127DF88727FF086100D9308C /* AppDelegate.swift in Sources */,
-				127DF88927FF086100D9308C /* SceneDelegate.swift in Sources */,
-				127DF8B72800892A00D9308C /* IkinciViewController.swift in Sources */,
+				127DF8D72809ADB400D9308C /* ViewController.swift in Sources */,
+				127DF8D32809ADB400D9308C /* AppDelegate.swift in Sources */,
+				127DF8D52809ADB400D9308C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		127DF89527FF086400D9308C /* Sources */ = {
+		127DF8E12809ADB500D9308C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127DF89E27FF086400D9308C /* LayoutProjectTests.swift in Sources */,
+				127DF8EA2809ADB500D9308C /* Jest_Alg_l_y_c_larTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		127DF89F27FF086400D9308C /* Sources */ = {
+		127DF8EB2809ADB500D9308C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127DF8AA27FF086400D9308C /* LayoutProjectUITestsLaunchTests.swift in Sources */,
-				127DF8A827FF086400D9308C /* LayoutProjectUITests.swift in Sources */,
+				127DF8F62809ADB500D9308C /* Jest_Alg_l_y_c_larUITestsLaunchTests.swift in Sources */,
+				127DF8F42809ADB500D9308C /* Jest_Alg_l_y_c_larUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		127DF89B27FF086400D9308C /* PBXTargetDependency */ = {
+		127DF8E72809ADB500D9308C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 127DF88227FF086100D9308C /* LayoutProject */;
-			targetProxy = 127DF89A27FF086400D9308C /* PBXContainerItemProxy */;
+			target = 127DF8CE2809ADB400D9308C /* Jest Algılıyıcılar */;
+			targetProxy = 127DF8E62809ADB500D9308C /* PBXContainerItemProxy */;
 		};
-		127DF8A527FF086400D9308C /* PBXTargetDependency */ = {
+		127DF8F12809ADB500D9308C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 127DF88227FF086100D9308C /* LayoutProject */;
-			targetProxy = 127DF8A427FF086400D9308C /* PBXContainerItemProxy */;
+			target = 127DF8CE2809ADB400D9308C /* Jest Algılıyıcılar */;
+			targetProxy = 127DF8F02809ADB500D9308C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		127DF88C27FF086100D9308C /* Main.storyboard */ = {
+		127DF8D82809ADB400D9308C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				127DF88D27FF086100D9308C /* Base */,
+				127DF8D92809ADB400D9308C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		127DF89127FF086400D9308C /* LaunchScreen.storyboard */ = {
+		127DF8DD2809ADB500D9308C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				127DF89227FF086400D9308C /* Base */,
+				127DF8DE2809ADB500D9308C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -322,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		127DF8AB27FF086400D9308C /* Debug */ = {
+		127DF8F72809ADB500D9308C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		127DF8AC27FF086400D9308C /* Release */ = {
+		127DF8F82809ADB500D9308C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -436,7 +430,7 @@
 			};
 			name = Release;
 		};
-		127DF8AE27FF086400D9308C /* Debug */ = {
+		127DF8FA2809ADB500D9308C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,7 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LayoutProject/Info.plist;
+				INFOPLIST_FILE = "Jest Algılıyıcılar/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -455,7 +449,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nimetapaydin.LayoutProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimetapaydin.Jest-Alg-l-y-c-lar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -463,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		127DF8AF27FF086400D9308C /* Release */ = {
+		127DF8FB2809ADB500D9308C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -471,7 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LayoutProject/Info.plist;
+				INFOPLIST_FILE = "Jest Algılıyıcılar/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -482,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nimetapaydin.LayoutProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimetapaydin.Jest-Alg-l-y-c-lar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,7 +484,7 @@
 			};
 			name = Release;
 		};
-		127DF8B127FF086400D9308C /* Debug */ = {
+		127DF8FD2809ADB500D9308C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -500,16 +494,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nimetapaydin.LayoutProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimetapaydin.Jest-Alg-l-y-c-larTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LayoutProject.app/LayoutProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jest Algılıyıcılar.app/Jest Algılıyıcılar";
 			};
 			name = Debug;
 		};
-		127DF8B227FF086400D9308C /* Release */ = {
+		127DF8FE2809ADB500D9308C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -519,16 +513,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nimetapaydin.LayoutProjectTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimetapaydin.Jest-Alg-l-y-c-larTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LayoutProject.app/LayoutProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jest Algılıyıcılar.app/Jest Algılıyıcılar";
 			};
 			name = Release;
 		};
-		127DF8B427FF086400D9308C /* Debug */ = {
+		127DF9002809ADB500D9308C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -536,16 +530,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nimetapaydin.LayoutProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimetapaydin.Jest-Alg-l-y-c-larUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LayoutProject;
+				TEST_TARGET_NAME = "Jest Algılıyıcılar";
 			};
 			name = Debug;
 		};
-		127DF8B527FF086400D9308C /* Release */ = {
+		127DF9012809ADB500D9308C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -553,55 +547,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nimetapaydin.LayoutProjectUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimetapaydin.Jest-Alg-l-y-c-larUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LayoutProject;
+				TEST_TARGET_NAME = "Jest Algılıyıcılar";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		127DF87E27FF086100D9308C /* Build configuration list for PBXProject "LayoutProject" */ = {
+		127DF8CA2809ADB400D9308C /* Build configuration list for PBXProject "Jest Algılıyıcılar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				127DF8AB27FF086400D9308C /* Debug */,
-				127DF8AC27FF086400D9308C /* Release */,
+				127DF8F72809ADB500D9308C /* Debug */,
+				127DF8F82809ADB500D9308C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		127DF8AD27FF086400D9308C /* Build configuration list for PBXNativeTarget "LayoutProject" */ = {
+		127DF8F92809ADB500D9308C /* Build configuration list for PBXNativeTarget "Jest Algılıyıcılar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				127DF8AE27FF086400D9308C /* Debug */,
-				127DF8AF27FF086400D9308C /* Release */,
+				127DF8FA2809ADB500D9308C /* Debug */,
+				127DF8FB2809ADB500D9308C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		127DF8B027FF086400D9308C /* Build configuration list for PBXNativeTarget "LayoutProjectTests" */ = {
+		127DF8FC2809ADB500D9308C /* Build configuration list for PBXNativeTarget "Jest AlgılıyıcılarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				127DF8B127FF086400D9308C /* Debug */,
-				127DF8B227FF086400D9308C /* Release */,
+				127DF8FD2809ADB500D9308C /* Debug */,
+				127DF8FE2809ADB500D9308C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		127DF8B327FF086400D9308C /* Build configuration list for PBXNativeTarget "LayoutProjectUITests" */ = {
+		127DF8FF2809ADB500D9308C /* Build configuration list for PBXNativeTarget "Jest AlgılıyıcılarUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				127DF8B427FF086400D9308C /* Debug */,
-				127DF8B527FF086400D9308C /* Release */,
+				127DF9002809ADB500D9308C /* Debug */,
+				127DF9012809ADB500D9308C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 127DF87B27FF086100D9308C /* Project object */;
+	rootObject = 127DF8C72809ADB400D9308C /* Project object */;
 }
