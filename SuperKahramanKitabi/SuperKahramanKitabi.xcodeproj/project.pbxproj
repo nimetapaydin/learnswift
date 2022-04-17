@@ -16,6 +16,7 @@
 		127DF926280B519400D9308C /* SuperKahramanKitabiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF925280B519400D9308C /* SuperKahramanKitabiTests.swift */; };
 		127DF930280B519400D9308C /* SuperKahramanKitabiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF92F280B519400D9308C /* SuperKahramanKitabiUITests.swift */; };
 		127DF932280B519400D9308C /* SuperKahramanKitabiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF931280B519400D9308C /* SuperKahramanKitabiUITestsLaunchTests.swift */; };
+		127DF93F280C6AB900D9308C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DF93E280C6AB900D9308C /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		127DF92B280B519400D9308C /* SuperKahramanKitabiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperKahramanKitabiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		127DF92F280B519400D9308C /* SuperKahramanKitabiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahramanKitabiUITests.swift; sourceTree = "<group>"; };
 		127DF931280B519400D9308C /* SuperKahramanKitabiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahramanKitabiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		127DF93E280C6AB900D9308C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				127DF90E280B519300D9308C /* AppDelegate.swift */,
 				127DF910280B519300D9308C /* SceneDelegate.swift */,
 				127DF912280B519300D9308C /* ViewController.swift */,
+				127DF93E280C6AB900D9308C /* DetailsViewController.swift */,
 				127DF914280B519300D9308C /* Main.storyboard */,
 				127DF917280B519400D9308C /* Assets.xcassets */,
 				127DF919280B519400D9308C /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				127DF913280B519300D9308C /* ViewController.swift in Sources */,
 				127DF90F280B519300D9308C /* AppDelegate.swift in Sources */,
 				127DF911280B519300D9308C /* SceneDelegate.swift in Sources */,
+				127DF93F280C6AB900D9308C /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
