@@ -17,6 +17,7 @@
 		12CCAC14280DEBF400169162 /* AlisVerisListesiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC13280DEBF400169162 /* AlisVerisListesiTests.swift */; };
 		12CCAC1E280DEBF400169162 /* AlisVerisListesiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC1D280DEBF400169162 /* AlisVerisListesiUITests.swift */; };
 		12CCAC20280DEBF400169162 /* AlisVerisListesiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC1F280DEBF400169162 /* AlisVerisListesiUITestsLaunchTests.swift */; };
+		12CCAC2D280DF70F00169162 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC2C280DF70F00169162 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		12CCAC19280DEBF400169162 /* AlisVerisListesiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlisVerisListesiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CCAC1D280DEBF400169162 /* AlisVerisListesiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlisVerisListesiUITests.swift; sourceTree = "<group>"; };
 		12CCAC1F280DEBF400169162 /* AlisVerisListesiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlisVerisListesiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12CCAC2C280DF70F00169162 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				12CCABF9280DEBF300169162 /* AppDelegate.swift */,
 				12CCABFB280DEBF300169162 /* SceneDelegate.swift */,
 				12CCABFD280DEBF300169162 /* ViewController.swift */,
+				12CCAC2C280DF70F00169162 /* DetailsViewController.swift */,
 				12CCABFF280DEBF300169162 /* Main.storyboard */,
 				12CCAC05280DEBF400169162 /* Assets.xcassets */,
 				12CCAC07280DEBF400169162 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				12CCABFE280DEBF300169162 /* ViewController.swift in Sources */,
 				12CCABFA280DEBF300169162 /* AppDelegate.swift in Sources */,
 				12CCABFC280DEBF300169162 /* SceneDelegate.swift in Sources */,
+				12CCAC2D280DF70F00169162 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
