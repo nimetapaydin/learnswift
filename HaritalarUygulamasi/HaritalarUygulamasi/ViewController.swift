@@ -24,6 +24,24 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
+        
+        let gestureRecognizer = UILongPressGestureRecognizer(target: self, action: #selector(konumSec(gestureRecognizer:)))
+        gestureRecognizer.minimumPressDuration = 3
+        mapView.addGestureRecognizer(gestureRecognizer)
+    }
+    
+    @objc func konumSec(gestureRecognizer : UILongPressGestureRecognizer){
+        if gestureRecognizer.state == .began {
+            
+            let dokunulanNokta = gestureRecognizer.location(in: mapView)
+            let dokunulanKoordinat = mapView.convert(dokunulanNokta, toCoordinateFrom: mapView)
+            
+            let annotation = MKPointAnnotation()
+            annotation.coordinate = dokunulanKoordinat
+            annotation.title = "Kullanıcı Seçimi"
+            annotation.subtitle = "Örnek altyazı"
+            mapView.addAnnotation(annotation)
+        }
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
