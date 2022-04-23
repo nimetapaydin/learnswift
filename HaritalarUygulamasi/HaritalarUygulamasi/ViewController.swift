@@ -15,7 +15,11 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     @IBOutlet weak var mapView: MKMapView!
     
-
+    @IBOutlet weak var isimTextField: UITextField!
+    
+    
+    @IBOutlet weak var notTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -38,8 +42,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             
             let annotation = MKPointAnnotation()
             annotation.coordinate = dokunulanKoordinat
-            annotation.title = "Kullanıcı Seçimi"
-            annotation.subtitle = "Örnek altyazı"
+            annotation.title = isimTextField.text
+            annotation.subtitle = notTextField.text
             mapView.addAnnotation(annotation)
         }
     }
