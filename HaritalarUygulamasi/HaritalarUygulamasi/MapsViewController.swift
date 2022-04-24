@@ -8,10 +8,18 @@
 import UIKit
 import MapKit
 import CoreLocation
+import CoreData
 
-class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+
+class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     var locationManager = CLLocationManager()
+    
+    var secilenLatitude = Double()
+    var secilenLongitude = Double()
+    
+    var secilenIsim = ""
+    var secilenId : UUID?
     
     @IBOutlet weak var mapView: MKMapView!
     
@@ -32,6 +40,15 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         let gestureRecognizer = UILongPressGestureRecognizer(target: self, action: #selector(konumSec(gestureRecognizer:)))
         gestureRecognizer.minimumPressDuration = 3
         mapView.addGestureRecognizer(gestureRecognizer)
+        
+        if secilenIsim != "" {
+            //Core Data'dan verileri çek
+           if let uuidString = secilenId?.uuidString{
+               print(uuidString)
+            }
+        }else{
+            //yeni veri eklemeye geldi
+        }
     }
     
     @objc func konumSec(gestureRecognizer : UILongPressGestureRecognizer){
@@ -39,6 +56,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             
             let dokunulanNokta = gestureRecognizer.location(in: mapView)
             let dokunulanKoordinat = mapView.convert(dokunulanNokta, toCoordinateFrom: mapView)
+            secilenLatitude = dokunulanKoordinat.latitude
+            secilenLongitude = dokunulanKoordinat.longitude
             
             let annotation = MKPointAnnotation()
             annotation.coordinate = dokunulanKoordinat
@@ -59,7 +78,28 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         mapView.setRegion(region, animated: true)
     
     }
-
+    
+    @IBAction func kaydetTiklandi(_ sender: Any) {
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let yeniYer = NSEntityDescription.insertNewObject(forEntityName: "Yer", into: context)
+        yeniYer.setValue(isimTextField.text, forKey: "isim")
+        yeniYer.setValue(notTextField.text, forKey: "not")
+        yeniYer.setValue(secilenLatitude, forKey: "latitude")
+        yeniYer.setValue(secilenLongitude, forKey: "longitude")
+        yeniYer.setValue(UUID(), forKey: "id")
+        
+        do{
+            try context.save()
+            print("kayıt edildi")
+        } catch {
+            print("hata")
+        }
+        
+    }
+    
 
 }
 

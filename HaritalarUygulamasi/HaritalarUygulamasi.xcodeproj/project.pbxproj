@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		12CCAC3B280EF97100169162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC3A280EF97100169162 /* AppDelegate.swift */; };
 		12CCAC3D280EF97100169162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC3C280EF97100169162 /* SceneDelegate.swift */; };
-		12CCAC3F280EF97100169162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC3E280EF97100169162 /* ViewController.swift */; };
+		12CCAC3F280EF97100169162 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC3E280EF97100169162 /* MapsViewController.swift */; };
 		12CCAC42280EF97100169162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CCAC40280EF97100169162 /* Main.storyboard */; };
 		12CCAC45280EF97100169162 /* HaritalarUygulamasi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC43280EF97100169162 /* HaritalarUygulamasi.xcdatamodeld */; };
 		12CCAC47280EF97200169162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CCAC46280EF97200169162 /* Assets.xcassets */; };
@@ -17,6 +17,7 @@
 		12CCAC55280EF97200169162 /* HaritalarUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC54280EF97200169162 /* HaritalarUygulamasiTests.swift */; };
 		12CCAC5F280EF97200169162 /* HaritalarUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC5E280EF97200169162 /* HaritalarUygulamasiUITests.swift */; };
 		12CCAC61280EF97200169162 /* HaritalarUygulamasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC60280EF97200169162 /* HaritalarUygulamasiUITestsLaunchTests.swift */; };
+		12CCAC6E2814325D00169162 /* LİstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CCAC6D2814325D00169162 /* LİstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		12CCAC37280EF97100169162 /* HaritalarUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaritalarUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CCAC3A280EF97100169162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12CCAC3C280EF97100169162 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12CCAC3E280EF97100169162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12CCAC3E280EF97100169162 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		12CCAC41280EF97100169162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12CCAC44280EF97100169162 /* HaritalarUygulamasi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HaritalarUygulamasi.xcdatamodel; sourceTree = "<group>"; };
 		12CCAC46280EF97200169162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		12CCAC5A280EF97200169162 /* HaritalarUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaritalarUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CCAC5E280EF97200169162 /* HaritalarUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaritalarUygulamasiUITests.swift; sourceTree = "<group>"; };
 		12CCAC60280EF97200169162 /* HaritalarUygulamasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaritalarUygulamasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12CCAC6D2814325D00169162 /* LİstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LİstViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,9 @@
 			children = (
 				12CCAC3A280EF97100169162 /* AppDelegate.swift */,
 				12CCAC3C280EF97100169162 /* SceneDelegate.swift */,
-				12CCAC3E280EF97100169162 /* ViewController.swift */,
+				12CCAC3E280EF97100169162 /* MapsViewController.swift */,
 				12CCAC40280EF97100169162 /* Main.storyboard */,
+				12CCAC6D2814325D00169162 /* LİstViewController.swift */,
 				12CCAC46280EF97200169162 /* Assets.xcassets */,
 				12CCAC48280EF97200169162 /* LaunchScreen.storyboard */,
 				12CCAC4B280EF97200169162 /* Info.plist */,
@@ -261,9 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12CCAC3F280EF97100169162 /* ViewController.swift in Sources */,
+				12CCAC3F280EF97100169162 /* MapsViewController.swift in Sources */,
 				12CCAC3B280EF97100169162 /* AppDelegate.swift in Sources */,
 				12CCAC45280EF97100169162 /* HaritalarUygulamasi.xcdatamodeld in Sources */,
+				12CCAC6E2814325D00169162 /* LİstViewController.swift in Sources */,
 				12CCAC3D280EF97100169162 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
