@@ -44,7 +44,14 @@ class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         if secilenIsim != "" {
             //Core Data'dan verileri çek
            if let uuidString = secilenId?.uuidString{
-               print(uuidString)
+              
+               let appDelegate = UIApplication.shared.delegate as! AppDelegate
+               let context = appDelegate.persistentContainer.viewContext
+               
+               let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Yer")
+               
+               fetchRequest.returnsObjectsAsFaults = false
+               
             }
         }else{
             //yeni veri eklemeye geldi
