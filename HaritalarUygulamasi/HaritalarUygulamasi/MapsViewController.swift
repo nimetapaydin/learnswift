@@ -49,9 +49,30 @@ class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
                let context = appDelegate.persistentContainer.viewContext
                
                let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Yer")
-               
+               fetchRequest.predicate = NSPredicate(format: "id=%@", uuidString)
                fetchRequest.returnsObjectsAsFaults = false
                
+               do{
+                   let sonuclar = try context.fetch(fetchRequest)
+                   if sonuclar.count > 0 {
+                       for sonuc in sonuclar as! [NSManagedObject]{
+                           if let isim = sonuc.value(forKey: "isim") as? String {
+                               
+                           }
+                           if let not = sonuc.value(forKey: "not") as? String {
+                               
+                           }
+                           if let latitude = sonuc.value(forKey: "latitude") as? Double {
+                               
+                           }
+                           if let longitude = sonuc.value(forKey: "longitude") as? Double {
+                               
+                           }
+                       }
+                   }
+               }catch{
+                   print("hata")
+               }
             }
         }else{
             //yeni veri eklemeye geldi
