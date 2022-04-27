@@ -21,6 +21,12 @@ class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
     var secilenIsim = ""
     var secilenId : UUID?
     
+    var annotationTitle = ""
+    var annotationSubtitle = ""
+    var annotationLatitude = Double()
+    var annotationLongitude = Double()
+    
+    
     @IBOutlet weak var mapView: MKMapView!
     
     @IBOutlet weak var isimTextField: UITextField!
@@ -57,17 +63,30 @@ class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
                    if sonuclar.count > 0 {
                        for sonuc in sonuclar as! [NSManagedObject]{
                            if let isim = sonuc.value(forKey: "isim") as? String {
+                               annotationTitle = isim
                                
+                               if let not = sonuc.value(forKey: "not") as? String {
+                                   annotationSubtitle = not
+                                   
+                                   if let latitude = sonuc.value(forKey: "latitude") as? Double {
+                                       annotationLatitude = latitude
+                                       
+                                       if let longitude = sonuc.value(forKey: "longitude") as? Double {
+                                           annotationLongitude = longitude
+                                           
+                                           let annotation = MKPointAnnotation()
+                                           annotation.title = annotationTitle
+                                           annotation.subtitle = annotationSubtitle
+                                           let coordinate = CLLocationCoordinate2D(latitude: annotationLatitude, longitude: annotationLongitude)
+                                           annotation.coordinate = coordinate
+                                           mapView.addAnnotation(annotation)
+                                           isimTextField.text = annotationTitle
+                                           notTextField.text = annotationSubtitle
+                                       }
+                                   }
+                               }
                            }
-                           if let not = sonuc.value(forKey: "not") as? String {
-                               
-                           }
-                           if let latitude = sonuc.value(forKey: "latitude") as? Double {
-                               
-                           }
-                           if let longitude = sonuc.value(forKey: "longitude") as? Double {
-                               
-                           }
+                                 
                        }
                    }
                }catch{
