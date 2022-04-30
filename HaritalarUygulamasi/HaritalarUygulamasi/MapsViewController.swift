@@ -104,6 +104,28 @@ class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         }
     }
     
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        if annotation is MKUserLocation {
+            return nil
+        }
+        let reuseId = "benimAnnotation"
+        var pinView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseId)
+        
+        if pinView == nil {
+            
+            pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
+            pinView?.canShowCallout = true
+            pinView?.tintColor = .red
+            
+            let button = UIButton(type: .detailDisclosure)
+            pinView?.rightCalloutAccessoryView = button
+            
+        }else{
+            pinView?.annotation = annotation
+        }
+        return pinView
+    }
+    
     @objc func konumSec(gestureRecognizer : UILongPressGestureRecognizer){
         if gestureRecognizer.state == .began {
             
@@ -154,7 +176,8 @@ class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         } catch {
             print("hata")
         }
-        
+        NotificationCenter.default.post(name: NSNotification.Name("yeniyerolusturuldu"), object: nil)
+        navigationController?.popViewController(animated: true)
     }
     
 
