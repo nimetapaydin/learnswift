@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  HaritalarUygulamasi
 //
-//  Created by NİMET APAYDIN on 19.04.2022.
+//  Created by NİMET APAYDIN on 08.05.2022
 //
 
 import UIKit
@@ -153,6 +153,7 @@ class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         }
     }
     
+    //Konum Secme
     @objc func konumSec(gestureRecognizer : UILongPressGestureRecognizer){
         if gestureRecognizer.state == .began {
             
@@ -181,7 +182,6 @@ class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
             mapView.setRegion(region, animated: true)
         }
         
-        
     
     }
     
@@ -207,6 +207,6 @@ class MapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
         navigationController?.popViewController(animated: true)
     }
     
-
 }
+
 
